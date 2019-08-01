@@ -4,7 +4,7 @@ In this step, we will run a new Docker container from the Elektron SDK Docker im
 
 Use the following command to open a new termial. 
 
-`bash`{{execute}}
+`bash`{{execute T2}}
 
 This container will start the Consumer example in the Elektron SDK package. The Consumer example will connect to the Provider example running in another Docker container on the same Docker host machine.
 
