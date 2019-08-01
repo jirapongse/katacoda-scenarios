@@ -2,7 +2,7 @@
   "title": "Elektron SDK on Docker",
   "description": "Demonstrate how to build and run Elektron SDK on Docker",
   "difficulty": "Beginner",
-  "time": "25",
+  "time": "50",
   "details": {
     "steps": [
       {
@@ -34,7 +34,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "docker"

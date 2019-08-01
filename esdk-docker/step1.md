@@ -1,4 +1,4 @@
-# Build the Elektron SDK Docker Image (5 minutes)
+# Build the Elektron SDK Docker Image (30 minutes)
 
 In this step, we will build the Elektron SDK Docker image from the [Dockerfile](https://github.com/Refinitiv-API-Samples/Article.EMA.ETA.Docker) available on GitHub.
 
@@ -9,7 +9,6 @@ In short, the script in the Dockerfile will do the following:
 - Run cmake to build the Elektron SDK
 
 Use the following docker build command to build the Elektron SDK Docker image.
-
 
 `docker build -t elektron-sdk https://github.com/Refinitiv-API-Samples/Article.EMA.ETA.Docker.git`{{execute T1}}
 
@@ -25,5 +24,5 @@ elektron-sdk Docker image.
 
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-elektron-sdk        latest              2155a4084df2        14 seconds ago      2.142 GB
+elektron-sdk        latest              6f4c8b3705f1        8 seconds ago       2.85GB
 ```
