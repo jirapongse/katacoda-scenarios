@@ -1,0 +1,1 @@
+# Stop and remove Docker containers (5 minutes)
