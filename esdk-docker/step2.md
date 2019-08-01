@@ -2,7 +2,7 @@
 
 In this step, we will run a Docker container from the Elektron SDK Docker image. This container will start the Provider example in the Elektron SDK package. The Provider example is listening on TCP 14002 port and provides data for DIRECT_FEED service.
 
-Use the following docker run command to run the Proivder Docker container.
+Use the following docker run command to run the Provider Docker container.
 
 `docker run --name provider -t elektron-sdk ./Provider -p 14002 -s DIRECT_FEED`{{execute T1}}
 
@@ -10,8 +10,9 @@ The command specifies the name of this container to **provider** via the **name*
 
 The output after running this command is:
 
-`portNo: 14002
+
+portNo: 14002
 serviceName: DIRECT_FEED
 serviceId: 1
 
-Server IPC descriptor = 3 bound on port 14002`
+Server IPC descriptor = 3 bound on port 14002

@@ -2,7 +2,7 @@
 
 In this step, we will run a new Docker container from the Elektron SDK Docker image in another terminal. 
 
-Use the following command to open a new termial. 
+Use the following command to open a new terminal. 
 
 `bash`{{execute T2}}
 
