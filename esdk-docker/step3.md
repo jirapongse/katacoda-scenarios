@@ -1,6 +1,12 @@
 # Run a Consumer example (5 minutes)
 
-In this step, we will run a new Docker container from the Elektron SDK Docker image in another terminal. This container will start the Consumer example in the Elektron SDK package. The Consumer example will connect to the Provider example running in another Docker container on the same Docker host machine.
+In this step, we will run a new Docker container from the Elektron SDK Docker image in another terminal. 
+
+Use the following command to open a new termial. 
+
+`bash`{{execute}}
+
+This container will start the Consumer example in the Elektron SDK package. The Consumer example will connect to the Provider example running in another Docker container on the same Docker host machine.
 
 Use the following docker run command to run the Consumer Docker container.
 
@@ -12,7 +18,7 @@ The Consumer example uses the **prov1** alias name to connect to the **Provider*
 
 The output after running this command is:
 
-```
+`
 Proxy host:
 Proxy port:
 
@@ -57,4 +63,4 @@ State: Open/Ok/None - text: "Item Refresh Completed"
         ACVOL_1             100000.00
         NETCHNG_1           2.15
         ASK_TIME            09:34:00:000:000:000
-```
+`
