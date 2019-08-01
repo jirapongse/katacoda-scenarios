@@ -10,7 +10,8 @@ In short, the script in the Dockerfile will do the following:
 
 Use the following docker build command to build the Elektron SDK Docker image.
 
-`docker build -t elektron-sdk https://github.com/Refinitiv-API-Samples/Article.EMA.ETA.Docker.git` {{execute T1}}
+
+`docker build -t elektron-sdk https://github.com/Refinitiv-API-Samples/Article.EMA.ETA.Docker.git`{{execute T1}}
 
 The **-t** parameter is used to tag elektron-sdk as a name of this Docker image.
 
@@ -20,7 +21,7 @@ After the build was successful, the **docker image** command can be used to
 list all available images on the host machine and the output will show the 
 elektron-sdk Docker image.
 
-`docker image ls` {{execute T1}}
+`docker image ls`{{execute T1}}
 
 ```
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
