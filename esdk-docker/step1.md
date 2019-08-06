@@ -24,5 +24,5 @@ elektron-sdk Docker image.
 
 `
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-elektron-sdk        latest              6f4c8b3705f1        8 seconds ago       2.85GB
+elektron-sdk        latest              6f4c8b3705f1        8 seconds ago       2.78GB
 `
