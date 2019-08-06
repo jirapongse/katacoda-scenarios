@@ -1,4 +1,4 @@
-# Run a Consumer example (2 minutes)
+# Run a Consumer example
 
 In this step, we will run a new Docker container from the Elektron SDK Docker image in another terminal. 
 
