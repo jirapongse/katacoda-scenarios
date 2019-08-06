@@ -90,3 +90,6 @@ State: Open/Ok/None - text: "*All is well"
 ```
 
 
+Press the <kbd>Ctrl<kbd>+<kbd>c<kbd> to stop the example.
+
+clear{{execute interrupt T2}}
