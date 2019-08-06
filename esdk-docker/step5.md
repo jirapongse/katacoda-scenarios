@@ -26,7 +26,7 @@ Then, run the VAConsumer with the following options.
 
 `VAConsumer -encryptedSocket amer-1.pricing.streaming.edp.thomsonreuters.com:14002 ELEKTRON_DD mp:/IBM.N -sessionMgnt -uname <username> -passwd <password> -clientId <clientid>`{{execute T2}}
 
-Please change <username>, <password>, and <clientid> according to your credential.
+Please change username, password, and clientid according to your credential.
   
 The output of VAConsumer looks like:
 
