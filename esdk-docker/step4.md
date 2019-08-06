@@ -1,20 +1,49 @@
 # Stop and remove Docker containers (5 minutes)
 
-
 In this step, we will stop the running Docker containers and then remove those Docker containers.
 
-Use the following command to break the Consumer Docker container on termial 2.
+Use `Ctrl+c`to interupt the consumer Docker container on the termial 2.
 
 `clear`{{execute interrupt T2}}
 
-This container will start the Consumer example in the Elektron SDK package. The Consumer example will connect to the Provider example running in another Docker container on the same Docker host machine.
+We can use the **docker ps** commmand with the a option to list all containers on the host machine. 
 
-Use the following docker run command to run the Consumer Docker container.
+`docker ps -a`{{execute T2}}
 
-`docker run --name consumer -t --link provider:prov1 elektron-sdk ./Consumer -h prov1 -p 14002 -s DIRECT_FEED -mp TEST`{{execute T2}}
+The output indicates that the statuses of both provider and consumer containers are up.
 
-The command specifies the name of this container to **consumer** via the **name** option and use the **t** option to allocate the teletype (TTY) for this container so the output can be seen on the console. The Docker image used to run this container is **elektron-sdk**. It runs the **Consumer** example in the Elektron SDK package.
 
-The Consumer example uses the **prov1** alias name to connect to the **Provider** container on TCP 14002 port. It subscribes to an item named **TEST** from the **DIRECT_FEED** service.
+To stop containers, you can use the **docker stop** command with the name of the container.
 
-The output after running this command is:
+Use the following command to stop the running provider Docker container.
+
+`docker stop provider`{{execute T2}}
+
+Use the following command to stop the running  Docker container. 
+
+`docker stop consumer`{{execute T2}}
+
+Next, we can use the **docker ps** commmand again to verify the statuses of those containers.
+
+`docker ps -a`{{execute T2}}
+
+Now, the statuses of those containers are changed to exited.
+
+You can restart those containers with the **docker start** command or remove 
+those containers with the **docker rm** command. 
+
+To remove the container, run the **docker rm** command with the sanme of the container.
+
+Use the following command to remove the provider container.
+
+`docker rm provider`{{execute T2}}
+
+Use the following command to stop the consumer container. 
+
+`docker rm consumer`{{execute T2}}
+
+After removing, the output from the **docker ps** command indicates that 
+those containers are removed.
+
+`docker ps -a`{{execute T2}}
+
