@@ -24,7 +24,7 @@ Next, the EDP-RT in Cloud connectivity example has a dependency on the Libcurl l
 
 Then, run the VAConsumer with the following options.
 
-`VAConsumer -encryptedSocket amer-1.pricing.streaming.edp.thomsonreuters.com:14002 ELEKTRON_DD mp:/IBM.N -sessionMgnt -uname <username> -passwd <password> -clientId <clientid>`{{copy}}
+`./VAConsumer -encryptedSocket amer-1.pricing.streaming.edp.thomsonreuters.com:14002 ELEKTRON_DD mp:/IBM.N -sessionMgnt -uname <username> -passwd <password> -clientId <clientid>`{{copy}}
 
 Please change username, password, and clientid according to your credential.
   
