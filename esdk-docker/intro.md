@@ -6,7 +6,7 @@ The [Elektron SDK](https://developers.refinitiv.com/elektron) is an open source 
 
 It contains five steps which are:
 - Build the Elektron SDK Docker Image (30 minutes)
-- Run a Provider example (5 minutes)
-- Run a Consumer example (5 minutes)
-- Stop and remove Docker containers (5 minutes)
-- Access shell command prompt to run other examples (5 minutes)
+- Run a Provider example (2 minutes)
+- Run a Consumer example (2 minutes)
+- Stop and remove Docker containers (2 minutes)
+- Access the shell command prompt to run other examples (4 minutes)
