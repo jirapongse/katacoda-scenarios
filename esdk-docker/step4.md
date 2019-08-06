@@ -1,7 +1,7 @@
 # Stop and remove Docker containers
 In this step, we will stop the running Docker containers and then remove those Docker containers.
 
-Use `Ctrl+c` to interrupt the consumer Docker container on the terminal 2.
+Press <kbd>Ctrl</kbd>+<kbd>c</kbd> to interrupt the consumer Docker container on the terminal 2.
 
 `clear`{{execute interrupt T2}}
 
