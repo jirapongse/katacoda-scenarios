@@ -1,11 +1,11 @@
 # Stop and remove Docker containers
 In this step, we will stop the running Docker containers and then remove those Docker containers.
 
-Use `Ctrl+c`to interupt the consumer Docker container on the termial 2.
+Use `Ctrl+c` to interrupt the consumer Docker container on the terminal 2.
 
 `clear`{{execute interrupt T2}}
 
-We can use the **docker ps** commmand with the a option to list all containers on the host machine. 
+We can use the **docker ps** command with the a option to list all containers on the host machine. 
 
 `docker ps -a`{{execute T2}}
 
@@ -27,7 +27,7 @@ Use the following command to stop the running  Docker container.
 
 `docker stop consumer`{{execute T2}}
 
-Next, we can use the **docker ps** commmand again to verify the statuses of those containers.
+Next, we can use the **docker ps** command again to verify the statuses of those containers.
 
 `docker ps -a`{{execute T2}}
 
@@ -42,7 +42,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 You can restart those containers with the **docker start** command or remove 
 those containers with the **docker rm** command. 
 
-To remove the container, run the **docker rm** command with the sanme of the container.
+To remove the container, run the **docker rm** command with the name of the container.
 
 Use the following command to remove the provider container.
 
