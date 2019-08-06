@@ -1,5 +1,4 @@
-# Stop and remove Docker containers (5 minutes)
-
+# Stop and remove Docker containers
 In this step, we will stop the running Docker containers and then remove those Docker containers.
 
 Use `Ctrl+c`to interupt the consumer Docker container on the termial 2.
