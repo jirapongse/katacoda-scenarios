@@ -18,7 +18,7 @@ The Consumer example uses the **prov1** alias name to connect to the **Provider*
 
 The output after running this command is:
 
-`
+```
 Proxy host:
 Proxy port:
 
@@ -63,4 +63,4 @@ State: Open/Ok/None - text: "Item Refresh Completed"
         ACVOL_1             100000.00
         NETCHNG_1           2.15
         ASK_TIME            09:34:00:000:000:000
-`
+```
