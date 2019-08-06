@@ -5,7 +5,7 @@ In this step, we will stop the running Docker containers and then remove those D
 
 Use the following command to break the Consumer Docker container on termial 2.
 
-`Ctrl+c`{{execute interrupt T2}}
+`clear`{{execute interrupt T2}}
 
 This container will start the Consumer example in the Elektron SDK package. The Consumer example will connect to the Provider example running in another Docker container on the same Docker host machine.
 
