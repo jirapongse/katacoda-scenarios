@@ -30,4 +30,64 @@ Please copy the above command to change the username, password, and clientid acc
   
 The output of VAConsumer looks like:
 
+```
+Connections:
+        amer-1.pricing.streaming.edp.thomsonreuters.com:14002 ELEKTRON_DD
+                MarketPriceItems: /IBM.N
+                MarketByOrderItems:
+                MarketByPriceItems:
+                YieldCurveItems:
+                MarketPriceItems (Private Stream):
+                MarketByOrderItems (Private Stream):
+                MarketByPriceItems (Private Stream):
+                YieldCurveItems (Private Stream):
+
+Adding connection to amer-1.pricing.streaming.edp.thomsonreuters.com:14002...
+
+Connection up! Channel fd=9
+
+
+Received Login Response
+        State: Open/Ok/None - text: "Login accepted by host ads-premium-az1-blue-9-main-prd.use1-az1."
+
+        Authn TT Reissue: 1565076082
+        Authn Error Code: 0
+        Authn Error Text:
+
+Received Source Directory Response:     State: Open/Ok/None - text: ""
+
+Received serviceName: PERM_SVR_SNKDRV
+
+Received serviceName: ELEKTRON_DD
+
+        Service State: Up
+
+
+(Channel 9):
+/IBM.N
+DOMAIN: RSSL_DMT_MARKET_PRICE
+State: Open/Ok/None - text: "*All is well"
+        PROD_PERM           4017
+        RDNDISPLAY          64
+        DSPLY_NAME          INTL BUS MACHI/d
+        RDN_EXCHID          NYS(2)
+        TRDPRC_1            140.760000
+        TRDPRC_2            140.740000
+        TRDPRC_3            140.810000
+        TRDPRC_4            140.930000
+        TRDPRC_5            141.020000
+        NETCHNG_1           -6.490000
+        HIGH_1              144.730000
+        LOW_1               139.165000
+        PRCTCK_1            �(1)
+        CURRENCY            USD(840)
+        TRADE_DATE          05 AUG 2019
+        TRDTIM_1            20:01:00:000:000:000
+        OPEN_PRC            144.720000
+        HST_CLOSE           147.250000
+        BID                 140.720000
+        BID_1               140.720000
+        BID_2               140.720000
+```
+
 
