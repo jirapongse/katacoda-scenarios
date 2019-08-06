@@ -1,4 +1,4 @@
-# Run a Provider example (5 minutes)
+# Run a Provider example (2 minutes)
 
 In this step, we will run a Docker container from the Elektron SDK Docker image. This container will start the Provider example in the Elektron SDK package. The Provider example is listening on TCP 14002 port and provides data for DIRECT_FEED service.
 
