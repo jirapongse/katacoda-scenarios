@@ -1,4 +1,4 @@
-# Access shell command prompt to run another example (5 minutes)
+# Access the shell command prompt to run another example (5 minutes)
 
 In this step, we will run a new Elektron-SDK Docker container to access the shell command prompt and run another example.
 
